@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Kinopoisk Mod",
+    "version": "1.0",
+    "description": "Модификация интерфейса Kinopoisk",
+    "content_scripts": [{
+      "matches": ["*://www.kinopoisk.ru/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }],
+    "icons": {
+      "128": "icon.png"
+    }
+  }
